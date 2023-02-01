@@ -30,7 +30,7 @@ public class NewsAggregatorApp extends JFrame {
     private JButton showDetailsButton;
     private NewsItem selectedNewsItem;
 
-    private static final String API_KEY = "0df928e98b4b44779a30e13dc4d975d1";
+    private static final String API_KEY = "xxxxx";
     private static final String API_URL = "https://newsapi.org/v2/top-headlines?country=gr&apiKey=" + API_KEY;
 
     public NewsAggregatorApp() throws IOException {
